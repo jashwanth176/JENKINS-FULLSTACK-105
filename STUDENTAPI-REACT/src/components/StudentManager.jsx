@@ -129,7 +129,12 @@ const StudentManager = () => {
 )}
 
 
-      <h2>Student Management</h2>
+      <h2>
+        Student Management -{' '}
+        <span style={{ color: '#FF9933' }}>Happy</span>{' '}
+        <span style={{ color: 'white', textShadow: '0 0 3px black' }}>Independence</span>{' '}
+        <span style={{ color: '#138808' }}>Day</span>
+      </h2>
 
       <div>
         <h3>{editMode ? 'Edit Student' : 'Add Student'}</h3>
